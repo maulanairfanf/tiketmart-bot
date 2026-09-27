@@ -1,0 +1,22 @@
+{
+  "name": "tiketmart-ticket-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "war": "tsx src/index.ts war",
+    "dry-run": "DRY_RUN=true tsx src/index.ts",
+    "login": "tsx src/index.ts login",
+    "inspect": "tsx src/index.ts inspect",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
